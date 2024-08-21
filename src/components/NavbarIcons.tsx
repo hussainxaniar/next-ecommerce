@@ -41,7 +41,7 @@ const NavbarIcons = () => {
         onClick={handleIsProfileOpen}
       />
       {isProfileOpen && (
-        <div className="p-3 shadow-[0_2px_12px_rgb(0,0,0,0.14)] z-20 flex flex-col gap-4 absolute top-8 rounded-md min-w-24">
+        <div className="p-3 shadow-[0_2px_12px_rgb(0,0,0,0.14)] z-20 flex flex-col gap-4 absolute top-8 rounded-md min-w-24 bg-white">
           <Link href="/">Profile</Link>
           <Link href="/">Logout</Link>
         </div>

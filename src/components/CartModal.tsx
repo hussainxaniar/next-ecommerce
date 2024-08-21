@@ -6,7 +6,7 @@ const CartModal = () => {
   const isCardEmpty = false;
 
   return (
-    <div className="p-4 absolute top-8 right-0 shadow-[0_2px_12px_rgb(0,0,0,0.14)] w-max flex flex-col rounded-md gap-4">
+    <div className="p-4 bg-white absolute top-8 right-0 shadow-[0_2px_12px_rgb(0,0,0,0.14)] w-max flex flex-col rounded-md gap-4 z-30">
       {isCardEmpty ? (
         <div>Card is empty</div>
       ) : (

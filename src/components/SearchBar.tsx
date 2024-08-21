@@ -9,7 +9,7 @@ const SearchBar = () => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const name = formData.get("name") as string;
-
+ 
     if (name) {
       router.push(`/list?name=${name}`);
     }
